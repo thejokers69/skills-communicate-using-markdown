@@ -15,5 +15,5 @@ var myVar="Hello, world!";
 ```
 ## Mark a task list 
 - [x] Turn on Github pages
-- [x] Outline my Portfolio 
+- [ ] Outline my Portfolio 
 - [x] Introduce myslef to this world.
