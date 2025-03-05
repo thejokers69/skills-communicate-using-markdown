@@ -3,4 +3,22 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
+    labels:
+      - "dependencies"
+    reviewers:
+      - "thejokers69"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+    reviewers:
+      - "thejokers69"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
